@@ -1,0 +1,9 @@
+diffusers==0.38.0
+transformers==4.55.4
+accelerate
+datasets
+peft==0.17.1
+torch
+Pillow
+
+#pip install -r requirements.txt
