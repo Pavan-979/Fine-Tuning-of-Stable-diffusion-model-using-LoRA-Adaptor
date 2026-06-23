@@ -66,6 +66,9 @@ def train_lora(cfg):
 
         "--learning_rate",
         str(cfg["learning_rate"]),
+        
+        "--rank",
+        str(cfg["rank"]),
 
         "--max_train_steps",
         str(cfg["max_train_steps"]),
